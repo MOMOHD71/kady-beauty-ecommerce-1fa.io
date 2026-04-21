@@ -1,0 +1,199 @@
+/** @import must precede all other statements */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  /**
+   * Kady Beauty - Luxury Beauty Brand Theme
+   * Colors: Black, White, Rose Gold, and Gold
+   * tailwind.config.ts expects the following color variables to be expressed as HSL values.
+  */
+  :root {
+    /* Luxury dark theme - primary for Kady Beauty */
+    --background: 0 0% 5%;
+    --foreground: 0 0% 95%;
+
+    --card: 0 0% 12%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 0 0% 12%;
+    --popover-foreground: 0 0% 95%;
+
+    /* Rose Gold / Pink as primary accent */
+    --primary: 325 68% 56%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Gold as secondary accent */
+    --secondary: 42 87% 55%;
+    --secondary-foreground: 0 0% 10%;
+
+    /* Muted for subtle text */
+    --muted: 0 0% 45%;
+    --muted-foreground: 0 0% 75%;
+
+    /* Accent is rose/pink */
+    --accent: 325 68% 56%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    /* Light borders on dark background */
+    --border: 0 0% 25%;
+    --input: 0 0% 15%;
+    --ring: 325 68% 56%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 8%;
+    --sidebar-foreground: 0 0% 90%;
+    --sidebar-primary: 325 68% 56%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 42 87% 55%;
+    --sidebar-accent-foreground: 0 0% 10%;
+    --sidebar-border: 0 0% 25%;
+    --sidebar-ring: 325 68% 56%;
+
+    /* Brand specific colors */
+    --rose-gold: 325 68% 56%;
+    --gold: 42 87% 55%;
+    --black: 0 0% 5%;
+    --white: 0 0% 95%;
+  }
+
+  .dark {
+    --background: 0 0% 5%;
+    --foreground: 0 0% 95%;
+    --card: 0 0% 12%;
+    --card-foreground: 0 0% 95%;
+    --popover: 0 0% 12%;
+    --popover-foreground: 0 0% 95%;
+    --primary: 325 68% 56%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 42 87% 55%;
+    --secondary-foreground: 0 0% 10%;
+    --muted: 0 0% 45%;
+    --muted-foreground: 0 0% 75%;
+    --accent: 325 68% 56%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 0 0% 25%;
+    --input: 0 0% 15%;
+    --ring: 325 68% 56%;
+    --sidebar-background: 0 0% 8%;
+    --sidebar-foreground: 0 0% 90%;
+    --sidebar-primary: 325 68% 56%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 42 87% 55%;
+    --sidebar-accent-foreground: 0 0% 10%;
+    --sidebar-border: 0 0% 25%;
+    --sidebar-ring: 325 68% 56%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: "Poppins", sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+
+  :where(p, span, li, h1, h2, h3, h4, h5, h6, a, button, label, td, th) {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  pre,
+  code {
+    overflow-x: auto;
+    white-space: pre;
+  }
+
+  /* Luxury button styles */
+  button {
+    @apply transition-all duration-300 ease-out;
+  }
+
+  /* Elegant links */
+  a {
+    @apply transition-colors duration-300;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-primary-foreground px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-all duration-300;
+  }
+
+  .btn-secondary {
+    @apply bg-secondary text-secondary-foreground px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-all duration-300;
+  }
+
+  .btn-outline {
+    @apply border border-primary text-primary px-8 py-3 rounded-lg font-semibold hover:bg-primary hover:text-primary-foreground transition-all duration-300;
+  }
+
+  .section-title {
+    @apply text-4xl md:text-5xl font-bold text-center mb-4 text-foreground;
+  }
+
+  .section-subtitle {
+    @apply text-lg md:text-xl text-center text-muted-foreground mb-12;
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+}
+
+@layer utilities {
+  .rounded-logo {
+    border-radius: 12px;
+  }
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+}

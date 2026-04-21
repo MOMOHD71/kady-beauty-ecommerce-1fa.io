@@ -1,0 +1,259 @@
+{
+  "users": {
+    "admin@kadybeauty.com": {
+      "password": "root KADY_Beauty.admin.001",
+      "role": "admin"
+    },
+    "semite.Davido12@gmail.com": {
+      "password": "azerty12@1",
+      "role": "user",
+      "name": "jean lucien",
+      "phone": "0708484933"
+    }
+  },
+  "products": [
+    {
+      "id": 1772789976676,
+      "name": "Poudre libre de huda beauty",
+      "price": 35000,
+      "discount": 0,
+      "category": "Soins Visage",
+      "image": "/prod_1772789976676.png"
+    },
+    {
+      "id": 1772790072122,
+      "name": "GEL",
+      "price": 1500,
+      "discount": 0,
+      "category": "Soins Visage",
+      "image": "/prod_1772790072122.png"
+    },
+    {
+      "id": 1772790214634,
+      "name": "Pinceaux",
+      "price": 20000,
+      "discount": 0,
+      "category": "Soins Visage",
+      "image": "/prod_1772790214634.png"
+    },
+    {
+      "id": 1772790266798,
+      "name": "Pinceaux",
+      "price": 5000,
+      "discount": 0,
+      "category": "Soins Visage",
+      "image": "/prod_1772790266798.png"
+    },
+    {
+      "id": 1772790472862,
+      "name": "POUDRE",
+      "price": 3000,
+      "discount": 0,
+      "category": "Soins Visage",
+      "image": "/prod_1772790472862.png"
+    },
+    {
+      "id": 1772790568313,
+      "name": "Base elf",
+      "price": 10000,
+      "discount": 0,
+      "category": "Soins Visage",
+      "image": "/prod_1772790568313.png"
+    },
+    {
+      "id": 1772790660072,
+      "name": "GEL A GRIP",
+      "price": 10000,
+      "discount": 0,
+      "category": "Soins Visage",
+      "image": "/prod_1772790660072.png"
+    },
+    {
+      "id": 1772790867919,
+      "name": "Concealer zikel",
+      "price": 6000,
+      "discount": 0,
+      "category": "Maquillage",
+      "image": "/prod_1772790867919.png"
+    },
+    {
+      "id": 1772790931022,
+      "name": "Palette à poudre libre",
+      "price": 5000,
+      "discount": 0,
+      "category": "Maquillage",
+      "image": "/prod_1772790931022.png"
+    },
+    {
+      "id": 1772791088045,
+      "name": "BASE ELF",
+      "price": 5000,
+      "discount": 0,
+      "category": "Maquillage",
+      "image": "/prod_1772791088045.png"
+    },
+    {
+      "id": 1772791199075,
+      "name": "Houppette",
+      "price": 1500,
+      "discount": 0,
+      "category": "Maquillage",
+      "image": "/prod_1772791199075.png"
+    },
+    {
+      "id": 1772791360900,
+      "name": "VITAMIN C",
+      "price": 5000,
+      "discount": 0,
+      "category": "Soins Visage",
+      "image": "/prod_1772791360900.png"
+    },
+    {
+      "id": 1772791456843,
+      "name": "Fond de teint kiko",
+      "price": 5000,
+      "discount": 0,
+      "category": "Soins Visage",
+      "image": "/prod_1772791456843.png"
+    },
+    {
+      "id": 1772791575178,
+      "name": "Fondation AVOUR",
+      "price": 7000,
+      "discount": 0,
+      "category": "Maquillage",
+      "image": "/prod_1772791575178.png"
+    },
+    {
+      "id": 1772791664416,
+      "name": "Croupillon",
+      "price": 2000,
+      "discount": 0,
+      "category": "Maquillage",
+      "image": "/prod_1772791664416.png"
+    },
+    {
+      "id": 1772791869822,
+      "name": "Blush",
+      "price": 5000,
+      "discount": 0,
+      "category": "Maquillage",
+      "image": "/prod_1772791869822.png"
+    },
+    {
+      "id": 1772792044960,
+      "name": "Postiche",
+      "price": 6000,
+      "discount": 0,
+      "category": "Soins Cheveux",
+      "image": "/prod_1772792044960.png"
+    },
+    {
+      "id": 1772792197208,
+      "name": "Faux cils ",
+      "price": 2000,
+      "discount": 0,
+      "category": "Soins Visage",
+      "image": "/prod_1772792197208.png"
+    }
+  ],
+  "services": [
+    {
+      "id": 1772792977003,
+      "name": "Maquillage Simple",
+      "price": 7000,
+      "discount": 0,
+      "description": "Maquillage simple, pour une Beauté Remarquable ",
+      "image": "/serv_1772792977003.png"
+    },
+    {
+      "id": 1772793164861,
+      "name": "Maquillage Anniversaire",
+      "price": 10000,
+      "discount": 0,
+      "description": "Ton jour, ton éclat ! ",
+      "image": "/serv_1772793164861.png"
+    },
+    {
+      "id": 1772793314336,
+      "name": "Maquillage Shooting",
+      "price": 10000,
+      "discount": 0,
+      "description": "Brille devant l'objectif",
+      "image": "/serv_1772793314336.png"
+    },
+    {
+      "id": 1772793520008,
+      "name": "Maquillage Soirée/Glamour",
+      "price": 15000,
+      "discount": 0,
+      "description": "Un maquillage Glamour, une Soirée INOUBLIABLE",
+      "image": "/serv_1772793520008.png"
+    },
+    {
+      "id": 1772794713783,
+      "name": "Maquillage DOTE",
+      "price": 30000,
+      "discount": 0,
+      "description": "Tradition, élégance et beauté",
+      "image": "/serv_1772794713783.png"
+    },
+    {
+      "id": 1772795492730,
+      "name": "Maquillage Mariée",
+      "price": 30000,
+      "discount": 0,
+      "description": "Tradition, élégance et beauté",
+      "image": "/serv_1772795492730.png"
+    },
+    {
+      "id": 1772795833958,
+      "name": "Maquillage Fille d'Honneur",
+      "price": 12000,
+      "discount": 0,
+      "description": "Belle pour accompagner la reine du jour",
+      "image": "/serv_1772795833958.png"
+    },
+    {
+      "id": 1772796172517,
+      "name": "Maquillage Dame de Compagnie",
+      "price": 15000,
+      "discount": 0,
+      "description": "Brillez aux côtés de la mariée",
+      "image": "/serv_1772796172517.png"
+    }
+  ],
+  "orders": {},
+  "bookings": [],
+  "deliveryRates": {
+    "abidjan": 1500,
+    "near": 2000,
+    "rest": 3000
+  },
+  "reviews": {},
+  "messages": [],
+  "siteSettings": {
+    "ownerTitle": "Propriétaire de KDY Beauty",
+    "ownerImage": "/owner.png",
+    "siteLogo": "/logo.png"
+  },
+  "models": [
+    {
+      "id": "MOD-1772735324749",
+      "image": "/MOD-1772735324749.png"
+    },
+    {
+      "id": "MOD-1772735333604",
+      "image": "/MOD-1772735333604.png"
+    },
+    {
+      "id": "MOD-1772735748624",
+      "image": "/MOD-1772735748624.png"
+    },
+    {
+      "id": "MOD-1772735810367",
+      "image": "/MOD-1772735810367.png"
+    }
+  ],
+  "revenueOffset": 0
+}
